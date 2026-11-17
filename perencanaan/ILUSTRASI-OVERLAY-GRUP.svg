@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustrasi overlay halaman grup KDMP</title>
+  <desc id="desc">Perbandingan overlay grup pada desktop dan ponsel. Desktop menampilkan dialog di area kerja dengan halaman utama tetap terlihat di belakang. Ponsel menampilkan dialog hampir penuh layar.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f3fb"/><stop offset="1" stop-color="#eeeafb"/></linearGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f5f2ff"/><stop offset="1" stop-color="#fff"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#272044" flood-opacity=".19"/></filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="9" flood-color="#342a64" flood-opacity=".08"/></filter>
+    <style>
+      text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;fill:#24213a}
+      .muted{fill:#858096}.purple{fill:#5d4bc0}.tiny{font-size:11px}.small{font-size:13px}.body{font-size:14px}.bold{font-weight:700}.semibold{font-weight:600}
+      .label{font-size:10px;font-weight:700;fill:#77738a}.input{fill:#fff;stroke:#e5e0f0;stroke-width:1.2}.line{stroke:#eeeaf4;stroke-width:1}
+    </style>
+  </defs>
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <text x="56" y="58" font-size="29" font-weight="750">Grup terbuka seperti layar kerja</text>
+  <text x="56" y="87" font-size="15" class="muted">Area di belakang tetap dikenali; fokus berpindah ke isi grup. Panel menyesuaikan ukuran layar.</text>
+
+  <!-- Desktop canvas -->
+  <text x="56" y="132" class="small semibold">DESKTOP · panel berada di area kerja</text>
+  <g filter="url(#soft)">
+    <rect x="48" y="151" width="1000" height="770" rx="18" fill="#fff"/>
+    <rect x="48" y="151" width="1000" height="62" rx="18" fill="#fff"/>
+    <path d="M48 195v18h1000v-18" fill="#fff"/>
+    <path d="M48 213h1000" class="line"/>
+    <path d="M82 171l16 0 8 7-8 7H82z" fill="none" stroke="#cc425c" stroke-width="2"/>
+    <text x="118" y="185" font-size="15" font-weight="750">KDKMP <tspan fill="#7568b5">Lahat</tspan></text>
+    <text x="810" y="184" class="tiny muted">Simulasi lokal</text>
+    <rect x="904" y="166" width="91" height="31" rx="15" fill="#f2effb"/>
+    <text x="926" y="186" class="tiny purple semibold">PMO 1111</text>
+    <text x="83" y="256" font-size="20" font-weight="750">Pendataan sarana</text>
+    <text x="83" y="280" class="small muted">Pilih kelompok untuk melanjutkan penilaian.</text>
+    <rect x="82" y="307" width="285" height="118" rx="14" fill="#faf9fd" stroke="#eeeaf5"/>
+    <rect x="101" y="326" width="37" height="37" rx="11" fill="#e5f3eb"/>
+    <text x="109" y="350" class="small semibold" fill="#308b5c">01</text>
+    <text x="151" y="343" class="body bold">Kendaraan</text><text x="151" y="364" class="tiny muted">3 item · 2 sudah dinilai</text>
+    <text x="102" y="397" class="tiny muted">Lanjutkan penilaian grup</text>
+    <rect x="386" y="307" width="285" height="118" rx="14" fill="#faf9fd" stroke="#eeeaf5"/>
+    <rect x="405" y="326" width="37" height="37" rx="11" fill="#eeebf9"/><text x="413" y="350" class="small semibold purple">02</text>
+    <text x="455" y="343" class="body bold">Peralatan toko</text><text x="455" y="364" class="tiny muted">18 item · belum dibuka</text>
+    <text x="406" y="397" class="tiny muted">Buka kelompok</text>
+  </g>
+  <!-- dim backdrop restricted to work canvas -->
+  <rect x="48" y="213" width="1000" height="708" fill="#26213b" opacity=".34"/>
+  <!-- Desktop dialog -->
+  <g filter="url(#shadow)">
+    <rect x="222" y="257" width="652" height="620" rx="20" fill="#fff"/>
+    <path d="M242 257h612a20 20 0 0 1 20 20v78H222v-78a20 20 0 0 1 20-20" fill="url(#head)"/>
+    <path d="M222 355h652" class="line"/>
+    <rect x="246" y="278" width="39" height="39" rx="12" fill="#e5f3eb"/><text x="254" y="303" class="body bold" fill="#308b5c">01</text>
+    <text x="300" y="293" font-size="19" class="bold">Kendaraan</text><text x="300" y="316" class="tiny muted">3 item · 2 sudah dinilai</text>
+    <rect x="790" y="281" width="55" height="34" rx="17" fill="#fff" stroke="#e6e1f1"/>
+    <path d="M813 294a7 7 0 1 0 0 14 7 7 0 0 0 0-14m-3.5 7h7" fill="none" stroke="#5d4bc0" stroke-width="1.6" stroke-linecap="round"/>
+    <text x="248" y="383" class="tiny muted">Status grup</text><rect x="316" y="366" width="120" height="32" rx="9" class="input"/><text x="329" y="387" class="tiny semibold">Sebagian</text><path d="m419 379 5 5 5-5" fill="none" stroke="#6c6780" stroke-width="1.4"/>
+    <text x="248" y="439" class="small bold">1</text><text x="273" y="439" class="body bold">Truk 6 ban bak kayu/besi</text><text x="273" y="460" class="tiny muted">Rencana: 1 unit</text>
+    <text x="273" y="490" class="label">Keberadaan</text><rect x="273" y="499" width="176" height="40" rx="10" class="input"/><text x="289" y="524" class="small semibold">Ada</text><path d="m430 516 5 5 5-5" fill="none" stroke="#6c6780" stroke-width="1.5"/>
+    <text x="463" y="490" class="label">Tipe / Jenis</text><rect x="463" y="499" width="184" height="40" rx="10" class="input"/><text x="479" y="524" class="small semibold muted">Pilih tipe</text><path d="m628 516 5 5 5-5" fill="none" stroke="#6c6780" stroke-width="1.5"/>
+    <rect x="660" y="499" width="153" height="40" rx="11" fill="#f3f0fb"/><path d="M673 519c4-7 12-7 16 0-4 7-12 7-16 0Z" fill="none" stroke="#5d4bc0" stroke-width="1.5"/><circle cx="681" cy="519" r="2.2" fill="none" stroke="#5d4bc0" stroke-width="1.4"/><text x="696" y="524" class="small purple semibold">Gambar/spek</text>
+    <text x="273" y="574" class="label">Kondisi</text>
+    <rect x="273" y="585" width="72" height="37" rx="10" fill="#faf9fd" stroke="#eeeaf5"/><circle cx="290" cy="603" r="6" fill="#fff" stroke="#aaa5b4"/><text x="302" y="607" class="tiny muted">Baik</text>
+    <rect x="353" y="585" width="78" height="37" rx="10" fill="#faf9fd" stroke="#eeeaf5"/><circle cx="370" cy="603" r="6" fill="#fff" stroke="#aaa5b4"/><text x="382" y="607" class="tiny muted">Rusak</text>
+    <rect x="439" y="585" width="126" height="37" rx="10" fill="#f3f0fb" stroke="#c9c0ed"/><circle cx="457" cy="603" r="6" fill="#5d4bc0"/><circle cx="457" cy="603" r="2.5" fill="#fff"/><text x="469" y="607" class="tiny purple">Belum dicek</text><rect x="526" y="592" width="31" height="23" rx="7" fill="#fff" stroke="#e5e0f0"/><text x="538" y="608" class="tiny">1</text>
+    <text x="273" y="655" class="label">Jumlah aktual</text><rect x="273" y="665" width="267" height="39" rx="10" class="input"/><text x="289" y="690" class="small semibold">1</text>
+    <text x="273" y="734" class="label">Catatan</text><rect x="273" y="744" width="558" height="76" rx="10" class="input"/><text x="289" y="770" class="small muted">Tambahkan catatan bila diperlukan…</text>
+    <rect x="782" y="835" width="67" height="29" rx="9" fill="#5d4bc0"/><text x="799" y="854" class="tiny" fill="#fff" font-weight="700">Selesai</text>
+  </g>
+  <text x="74" y="949" class="tiny muted">Klik grup · latar meredup · tutup untuk kembali ke daftar</text>
+
+  <!-- Mobile canvas -->
+  <text x="1102" y="132" class="small semibold">MOBILE · hampir memenuhi layar</text>
+  <g filter="url(#soft)">
+    <rect x="1100" y="151" width="444" height="770" rx="26" fill="#25213a"/>
+    <rect x="1110" y="161" width="424" height="750" rx="20" fill="#fff"/>
+    <rect x="1110" y="161" width="424" height="43" rx="20" fill="#fff"/>
+    <path d="M1110 184v20h424v-20" fill="#fff"/>
+    <text x="1131" y="188" class="tiny semibold">9:41</text><path d="M1490 177h3v7h-3zm6-2h3v9h-3zm7-2h3v11h-3" fill="#333047"/>
+    <rect x="1110" y="204" width="424" height="76" fill="url(#head)"/><path d="M1110 280h424" class="line"/>
+    <text x="1132" y="234" font-size="17" class="bold">Kendaraan</text><text x="1132" y="256" class="tiny muted">3 item · 2 sudah dinilai</text>
+    <rect x="1480" y="220" width="36" height="36" rx="18" fill="#fff" stroke="#e6e1f1"/><path d="M1498 231a7 7 0 1 0 0 14 7 7 0 0 0 0-14m-3.5 7h7" fill="none" stroke="#5d4bc0" stroke-width="1.6" stroke-linecap="round"/>
+    <text x="1132" y="311" class="tiny muted">Status grup</text><rect x="1223" y="291" width="138" height="34" rx="9" class="input"/><text x="1237" y="313" class="tiny semibold">Sebagian</text><path d="m1341 304 5 5 5-5" fill="none" stroke="#6c6780" stroke-width="1.4"/>
+    <path d="M1132 347h380" class="line"/>
+    <text x="1132" y="377" class="small bold">1</text><text x="1156" y="377" class="body bold">Truk 6 ban bak kayu/besi</text><text x="1156" y="398" class="tiny muted">Rencana: 1 unit</text>
+    <text x="1156" y="433" class="label">Keberadaan</text><rect x="1156" y="442" width="160" height="40" rx="10" class="input"/><text x="1171" y="467" class="small semibold">Ada</text><path d="m1297 459 5 5 5-5" fill="none" stroke="#6c6780" stroke-width="1.5"/>
+    <text x="1330" y="433" class="label">Tipe / Jenis</text><rect x="1330" y="442" width="181" height="40" rx="10" class="input"/><text x="1344" y="467" class="small semibold muted">Pilih tipe</text><path d="m1492 459 5 5 5-5" fill="none" stroke="#6c6780" stroke-width="1.5"/>
+    <rect x="1156" y="493" width="150" height="39" rx="11" fill="#f3f0fb"/><path d="M1169 512c4-7 12-7 16 0-4 7-12 7-16 0Z" fill="none" stroke="#5d4bc0" stroke-width="1.5"/><circle cx="1177" cy="512" r="2.2" fill="none" stroke="#5d4bc0" stroke-width="1.4"/><text x="1192" y="517" class="small purple semibold">Gambar/spek</text>
+    <text x="1156" y="565" class="label">Kondisi</text>
+    <rect x="1156" y="576" width="70" height="37" rx="10" fill="#faf9fd" stroke="#eeeaf5"/><circle cx="1172" cy="594" r="6" fill="#fff" stroke="#aaa5b4"/><text x="1184" y="598" class="tiny muted">Baik</text>
+    <rect x="1234" y="576" width="76" height="37" rx="10" fill="#faf9fd" stroke="#eeeaf5"/><circle cx="1250" cy="594" r="6" fill="#fff" stroke="#aaa5b4"/><text x="1262" y="598" class="tiny muted">Rusak</text>
+    <rect x="1318" y="576" width="142" height="37" rx="10" fill="#f3f0fb" stroke="#c9c0ed"/><circle cx="1335" cy="594" r="6" fill="#5d4bc0"/><circle cx="1335" cy="594" r="2.5" fill="#fff"/><text x="1347" y="598" class="tiny purple">Belum dicek</text><rect x="1423" y="583" width="31" height="23" rx="7" fill="#fff" stroke="#e5e0f0"/><text x="1435" y="599" class="tiny">1</text>
+    <text x="1156" y="646" class="label">Jumlah aktual</text><rect x="1156" y="656" width="355" height="39" rx="10" class="input"/><text x="1171" y="681" class="small semibold">1</text>
+    <text x="1156" y="725" class="label">Catatan</text><rect x="1156" y="735" width="355" height="91" rx="10" class="input"/><text x="1171" y="761" class="small muted">Tambahkan catatan bila diperlukan…</text>
+    <rect x="1156" y="846" width="355" height="44" rx="12" fill="#5d4bc0"/><text x="1293" y="874" class="body" fill="#fff" font-weight="700">Selesai</text>
+  </g>
+  <text x="1120" y="949" class="tiny muted">Isi grup digulir di dalam panel</text>
+</svg>

@@ -1,0 +1,880 @@
+[
+  {
+    "id": "kendaraan",
+    "name": "Kendaraan",
+    "items": [
+      {
+        "order": 1,
+        "name": "Truk 6 ban bak kayu/besi",
+        "target": "1 unit",
+        "item_id": "KDN_TRUK",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan",
+        "types": [
+          "Mitsubishi Fuso FE 74 N Bak Besi",
+          "Mitsubishi Fuso FE 74 HDS N Bak Kayu",
+          "Mitsubishi Fuso FE 74 HD N Bak Besi",
+          "Hino 136 HDL",
+          "Hino 136 HD",
+          "Foton Aumark S",
+          "Isuzu NMR HD 5.8",
+          "Isuzu NMR HD 6.5",
+          "Tata Ultra T.7"
+        ]
+      },
+      {
+        "order": 2,
+        "name": "Kendaraan pick-up 4WD (4x4)",
+        "target": "1 unit",
+        "item_id": "KDN_PICKUP",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan",
+        "types": [
+          "Mahindra Scorpio Single Cab S6",
+          "Tata Yodha Single Cabin"
+        ]
+      },
+      {
+        "order": 3,
+        "name": "Motor bak roda 3",
+        "target": "2 unit",
+        "item_id": "KDN_MOTOR_RODA3",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan",
+        "types": [
+          "Power Ace Max Pro",
+          "HTM 200 DP 2.0",
+          "Kaisar Triseda K 200cc",
+          "APPKTM Mesin 200cc",
+          "Gajah Merah Putih 200",
+          "New Karya 200 Ln",
+          "TVS Armado"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1_set_mesin_kasir",
+    "name": "1 Set Mesin Kasir",
+    "items": [
+      {
+        "order": 4,
+        "name": "POS (Point of Sales)",
+        "target": "1 unit",
+        "item_id": "OPS_KASIR_POS",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 5,
+        "name": "Cash Drawer",
+        "target": "1 unit",
+        "item_id": "OPS_KASIR_CASH_DRAWER",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 6,
+        "name": "Gun Scanner",
+        "target": "1 unit",
+        "item_id": "OPS_KASIR_GUN_SCANNER",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 7,
+        "name": "Finger Print",
+        "target": "1 unit",
+        "item_id": "OPS_KASIR_FINGERPRINT",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 8,
+        "name": "Printer Receipt",
+        "target": "1 unit",
+        "item_id": "OPS_KASIR_PRINTER_RECEIPT",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 9,
+        "name": "Printer Barcode",
+        "target": "1 unit",
+        "item_id": "OPS_KASIR_PRINTER_BARCODE",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 10,
+        "name": "EDC",
+        "target": "1 unit",
+        "item_id": "OPS_KASIR_EDC",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 11,
+        "name": "WiFi Router/Modem",
+        "target": "1 unit",
+        "item_id": "OPS_KASIR_ROUTER",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 12,
+        "name": "UPS",
+        "target": "1 unit",
+        "item_id": "OPS_KASIR_UPS",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "1_set_cctv",
+    "name": "1 Set CCTV",
+    "items": [
+      {
+        "order": 13,
+        "name": "IP Camera Indoor",
+        "target": "4 unit",
+        "item_id": "KMN_CCTV_IPCAM_INDOOR",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 14,
+        "name": "IP Camera Outdoor",
+        "target": "4 unit",
+        "item_id": "KMN_CCTV_IPCAM_OUTDOOR",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 15,
+        "name": "NVR 8 Channel",
+        "target": "1 unit",
+        "item_id": "KMN_CCTV_NVR",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 16,
+        "name": "POE Switch 10 Port",
+        "target": "1 unit",
+        "item_id": "KMN_CCTV_POE_SWITCH",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 17,
+        "name": "HDD Minimal 2 TB",
+        "target": "1 unit",
+        "item_id": "KMN_CCTV_HDD",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 18,
+        "name": "Kabel LAN Cat 6",
+        "target": "1 unit",
+        "item_id": "KMN_CCTV_KABEL_LAN",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 19,
+        "name": "LED Display 19 Inch",
+        "target": "1 unit",
+        "item_id": "KMN_CCTV_LED_DISPLAY",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 20,
+        "name": "Wallmount Rack Server 4U",
+        "target": "1 unit",
+        "item_id": "KMN_CCTV_RACK",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 21,
+        "name": "Connector RJ45 Belden Cat 5",
+        "target": "20 unit",
+        "item_id": "KMN_CCTV_RJ45",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 22,
+        "name": "Stop Kontak 6 Slot",
+        "target": "1 unit",
+        "item_id": "KMN_CCTV_STOP_KONTAK",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 23,
+        "name": "Pipa PVC 20 mm",
+        "target": "35 unit",
+        "item_id": "KMN_CCTV_PIPA_PVC",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 24,
+        "name": "Sok Pipa",
+        "target": "35 unit",
+        "item_id": "KMN_CCTV_SOK_PIPA",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 25,
+        "name": "Kabel Duct 40 x 25 mm (1 batang = 3 m)",
+        "target": "1 unit",
+        "item_id": "KMN_CCTV_KABEL_DUCT",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 26,
+        "name": "Kabel Ties 20 cm",
+        "target": "1 unit",
+        "item_id": "KMN_CCTV_KABEL_TIES",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 27,
+        "name": "Isolasi Listrik",
+        "target": "2 unit",
+        "item_id": "KMN_CCTV_ISOLASI",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 28,
+        "name": "Kabel HDMI 1,5 m",
+        "target": "1 unit",
+        "item_id": "KMN_CCTV_KABEL_HDMI",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 29,
+        "name": "Double Tape 3M",
+        "target": "1 unit",
+        "item_id": "KMN_CCTV_DOUBLE_TAPE",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "konektivitas_software",
+    "name": "Konektivitas & Software",
+    "items": [
+      {
+        "order": 30,
+        "name": "Internet",
+        "target": "1 layanan",
+        "item_id": "GRY_INTERNET",
+        "assessment": "Keberadaan; Jenis koneksi; Status berfungsi; Catatan"
+      },
+      {
+        "order": 31,
+        "name": "Perangkat Lunak Kasir (Software KDKMP)",
+        "target": "1 paket",
+        "item_id": "GRY_SOFTWARE_KASIR",
+        "assessment": "Keberadaan; Status berfungsi; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "air_conditioner",
+    "name": "Air Conditioner",
+    "items": [
+      {
+        "order": 32,
+        "name": "AC 2 PK",
+        "target": "3 unit",
+        "item_id": "GRY_AC_2PK",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan",
+        "types": [
+          "BEST",
+          "FLIFE",
+          "Gree",
+          "Midea"
+        ]
+      },
+      {
+        "order": 33,
+        "name": "AC 1 PK",
+        "target": "2 unit",
+        "item_id": "GRY_AC_1PK",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan",
+        "types": [
+          "BEST",
+          "FLIFE",
+          "Gree",
+          "Midea"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "furniture_gerai",
+    "name": "Furniture Gerai",
+    "items": [
+      {
+        "order": 34,
+        "name": "Meja Koperasi Simpan Pinjam",
+        "target": "1 unit",
+        "item_id": "GRY_MEJA_KOPERASI",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 35,
+        "name": "Laci Dorong",
+        "target": "1 unit",
+        "item_id": "GRY_LACI_DORONG",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 36,
+        "name": "Rak Etalase",
+        "target": "1 unit",
+        "item_id": "GRY_RAK_ETALASE",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 37,
+        "name": "Meja Kasir",
+        "target": "1 unit",
+        "item_id": "GRY_MEJA_KASIR",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "apotek",
+    "name": "Apotek",
+    "items": [
+      {
+        "order": 38,
+        "name": "Lemari Display Apotek",
+        "target": "2 unit",
+        "item_id": "GRY_LEMARI_DISPLAY_APOTEK",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "perlengkapan_klinik",
+    "name": "Perlengkapan Klinik",
+    "items": [
+      {
+        "order": 39,
+        "name": "Meja Administrasi Klinik",
+        "target": "1 unit",
+        "item_id": "GRY_KLINIK_MEJA_ADMINISTRASI",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 40,
+        "name": "Laci Dorong",
+        "target": "1 unit",
+        "item_id": "GRY_KLINIK_LACI_DORONG",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 41,
+        "name": "Kursi (10 Unit)",
+        "target": "10 unit",
+        "item_id": "GRY_KLINIK_KURSI",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 42,
+        "name": "Meja Dokter",
+        "target": "1 unit",
+        "item_id": "GRY_KLINIK_MEJA_DOKTER",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 43,
+        "name": "Tempat Tidur Periksa Pasien",
+        "target": "1 unit",
+        "item_id": "GRY_KLINIK_TEMPAT_TIDUR",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "perlengkapan_rak_gerai",
+    "name": "Perlengkapan Rak Gerai",
+    "items": [
+      {
+        "order": 44,
+        "name": "Rak Display Single/Wall/Pinggir 90x40x180 cm",
+        "target": "11 unit",
+        "item_id": "GRY_RAK_WALL",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan",
+        "types": [
+          "Single Starting",
+          "Single Adjoining"
+        ]
+      },
+      {
+        "order": 45,
+        "name": "Rak Display Double/Island/Tengah 90x80x150 cm",
+        "target": "24 unit",
+        "item_id": "GRY_RAK_ISLAND",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan",
+        "types": [
+          "Double Starting",
+          "Double Adjoining"
+        ]
+      },
+      {
+        "order": 46,
+        "name": "Rak Display End 80x40x150 cm",
+        "target": "6 unit",
+        "item_id": "GRY_RAK_END",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "apar",
+    "name": "APAR",
+    "items": [
+      {
+        "order": 47,
+        "name": "APAR 3 kg",
+        "target": "2 unit",
+        "item_id": "KMN_APAR_3KG",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan",
+        "types": [
+          "Saige",
+          "QTREX",
+          "Indoraya Fire"
+        ]
+      },
+      {
+        "order": 48,
+        "name": "APAR 9 kg",
+        "target": "2 unit",
+        "item_id": "KMN_APAR_9KG",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan",
+        "types": [
+          "Saige",
+          "QTREX",
+          "Indoraya Fire"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "keranjang_belanja",
+    "name": "Keranjang Belanja",
+    "items": [
+      {
+        "order": 49,
+        "name": "Keranjang Tarik",
+        "target": "20 unit",
+        "item_id": "GRY_KERANJANG_TARIK",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan",
+        "types": [
+          "Tipe A",
+          "Tipe B"
+        ]
+      },
+      {
+        "order": 50,
+        "name": "Keranjang Jinjing",
+        "target": "20 unit",
+        "item_id": "GRY_KERANJANG_JINJING",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan",
+        "types": [
+          "Tipe A",
+          "Tipe B"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "seragam_kdkmp",
+    "name": "Seragam KDKMP",
+    "items": [
+      {
+        "order": 51,
+        "name": "Kemeja",
+        "target": "18 unit",
+        "item_id": "OPS_SERAGAM_KEMEJA",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 52,
+        "name": "Kaos Polo",
+        "target": "36 unit",
+        "item_id": "OPS_SERAGAM_KAOS_POLO",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "perlengkapan_lain_awal",
+    "name": "Perlengkapan Lain",
+    "items": [
+      {
+        "order": 53,
+        "name": "Pallet",
+        "target": "25 unit",
+        "item_id": "OPS_PALLET",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan",
+        "types": [
+          "Pallet Biru",
+          "Pallet Hitam"
+        ]
+      },
+      {
+        "order": 54,
+        "name": "Printer",
+        "target": "1 unit",
+        "item_id": "OPS_PRINTER",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 55,
+        "name": "Brankas",
+        "target": "1 unit",
+        "item_id": "KMN_BRANKAS",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan",
+        "types": [
+          "ET571",
+          "Black 42"
+        ]
+      },
+      {
+        "order": 56,
+        "name": "Genset",
+        "target": "1 unit",
+        "item_id": "KMN_GENSET",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "atk",
+    "name": "ATK",
+    "items": [
+      {
+        "order": 57,
+        "name": "Stempel",
+        "target": "1 unit",
+        "item_id": "OPS_STEMPEL",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 58,
+        "name": "Struk",
+        "target": "20 unit",
+        "item_id": "OPS_STRUK",
+        "assessment": "Keberadaan; Jumlah aktual; Ketersediaan; Catatan"
+      },
+      {
+        "order": 59,
+        "name": "Thermal Label",
+        "target": "5 unit",
+        "item_id": "OPS_THERMAL_LABEL",
+        "assessment": "Keberadaan; Jumlah aktual; Ketersediaan; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "alat_kebersihan",
+    "name": "Alat Kebersihan",
+    "items": [
+      {
+        "order": 60,
+        "name": "Tempat Sampah Besar",
+        "target": "2 unit",
+        "item_id": "OPS_TEMPAT_SAMPAH",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan",
+        "types": [
+          "3 Pilah (Triple Bin)",
+          "Wheelie Bin"
+        ]
+      },
+      {
+        "order": 61,
+        "name": "Alat Pel dan Ember",
+        "target": "2 unit",
+        "item_id": "OPS_ALAT_PEL",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 62,
+        "name": "Sapu Lantai dan Pengki",
+        "target": "2 unit",
+        "item_id": "OPS_SAPU_PENGKI",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "komputer",
+    "name": "Komputer",
+    "items": [
+      {
+        "order": 63,
+        "name": "PC All in One Intel, RAM 8 GB, SSD 512 GB",
+        "target": "1 unit",
+        "item_id": "GRY_KOMPUTER_AIO",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "beverages_frozen_foods",
+    "name": "Beverages & Frozen Foods",
+    "items": [
+      {
+        "order": 64,
+        "name": "Chiller 1 Pintu (2 Unit)",
+        "target": "2 unit",
+        "item_id": "GRY_CHILLER",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 65,
+        "name": "Chest Freezer Kapasitas sekitar 680 Liter",
+        "target": "2 unit",
+        "item_id": "GRY_FREEZER",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "ventilasi",
+    "name": "Ventilasi",
+    "items": [
+      {
+        "order": 66,
+        "name": "Kipas Plafon",
+        "target": "1 unit",
+        "item_id": "GRY_KIPAS_PLAFON",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 67,
+        "name": "Exhaust Fan",
+        "target": "2 unit",
+        "item_id": "GRY_EXHAUST_FAN",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "perlengkapan_lain",
+    "name": "Perlengkapan Lain",
+    "items": [
+      {
+        "order": 68,
+        "name": "Loker Lemari",
+        "target": "1 unit",
+        "item_id": "OPS_LOKER_LEMARI",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "keamanan_kehadiran",
+    "name": "Keamanan & Kehadiran",
+    "items": [
+      {
+        "order": 69,
+        "name": "Alarm Toko",
+        "target": "1 unit",
+        "item_id": "KMN_ALARM_TOKO",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 70,
+        "name": "Mesin Absensi",
+        "target": "1 unit",
+        "item_id": "KMN_MESIN_ABSENSI",
+        "assessment": "Keberadaan; Tipe/Jenis; Gambar; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "instalasi_air",
+    "name": "Instalasi Air",
+    "items": [
+      {
+        "order": 71,
+        "name": "Sumber air",
+        "target": "—",
+        "item_id": "OPS_SUMBER_AIR",
+        "assessment": "Keberadaan; Jenis sumber air; Terhubung ke instalasi; Catatan"
+      },
+      {
+        "order": 72,
+        "name": "Pompa air",
+        "target": "—",
+        "item_id": "OPS_POMPA_AIR",
+        "assessment": "Keberadaan; Fungsi; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 73,
+        "name": "Keran air",
+        "target": "3 unit",
+        "item_id": "OPS_KERAN_AIR",
+        "assessment": "Keberadaan; Aliran air; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 74,
+        "name": "Wastafel klinik",
+        "target": "1 unit",
+        "item_id": "OPS_WASTAFEL_KLINIK",
+        "assessment": "Keberadaan; Aliran air; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 75,
+        "name": "Wastafel gudang",
+        "target": "1 unit",
+        "item_id": "OPS_WASTAFEL_GUDANG",
+        "assessment": "Keberadaan; Aliran air; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 76,
+        "name": "WC klinik",
+        "target": "1 unit",
+        "item_id": "OPS_WC_KLINIK",
+        "assessment": "Keberadaan; Tipe WC; Bidet; Terhubung septic tank; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 77,
+        "name": "WC gudang",
+        "target": "2 unit",
+        "item_id": "OPS_WC_GUDANG",
+        "assessment": "Keberadaan; Tipe WC; Bidet; Terhubung septic tank; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 78,
+        "name": "Septic tank",
+        "target": "—",
+        "item_id": "OPS_SEPTIC_TANK",
+        "assessment": "Keberadaan; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  },
+  {
+    "id": "instalasi_listrik",
+    "name": "Instalasi Listrik",
+    "items": [
+      {
+        "order": 79,
+        "name": "Instalasi listrik",
+        "target": "—",
+        "item_id": "OPS_INSTALASI_LISTRIK",
+        "assessment": "Keberadaan; Kelayakan; Letak posisi; Catatan"
+      },
+      {
+        "order": 80,
+        "name": "Sertifikat Laik Operasi (SLO)",
+        "target": "—",
+        "item_id": "OPS_SLO",
+        "assessment": "Keberadaan; Catatan"
+      },
+      {
+        "order": 81,
+        "name": "Sumber listrik",
+        "target": "—",
+        "item_id": "OPS_SUMBER_LISTRIK",
+        "assessment": "Keberadaan; Catatan"
+      },
+      {
+        "order": 82,
+        "name": "MCB",
+        "target": "—",
+        "item_id": "OPS_MCB",
+        "assessment": "Keberadaan; Daya terpasang; Kondisi; Catatan"
+      },
+      {
+        "order": 83,
+        "name": "Panel listrik",
+        "target": "—",
+        "item_id": "OPS_PANEL_LISTRIK",
+        "assessment": "Keberadaan; Letak posisi; Kondisi; Catatan"
+      },
+      {
+        "order": 84,
+        "name": "Lampu area bongkar muat",
+        "target": "1 unit",
+        "item_id": "OPS_LAMPU_BONGKAR_MUAT",
+        "assessment": "Keberadaan; Aliran listrik; Saklar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 85,
+        "name": "Lampu gantung gudang utama",
+        "target": "10–12 unit",
+        "item_id": "OPS_LAMPU_GUDANG",
+        "assessment": "Keberadaan; Aliran listrik; Saklar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 86,
+        "name": "Lampu gudang pupuk",
+        "target": "2 unit",
+        "item_id": "OPS_LAMPU_GUDANG_PUPUK",
+        "assessment": "Keberadaan; Aliran listrik; Saklar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 87,
+        "name": "Lampu gudang tabung gas (LPG)",
+        "target": "4 unit",
+        "item_id": "OPS_LAMPU_GUDANG_LPG",
+        "assessment": "Keberadaan; Aliran listrik; Saklar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 88,
+        "name": "Lampu toilet gudang utama",
+        "target": "2 unit (masing-masing 1)",
+        "item_id": "OPS_LAMPU_TOILET",
+        "assessment": "Keberadaan; Aliran listrik; Saklar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 89,
+        "name": "Lampu swalayan",
+        "target": "12–16 unit",
+        "item_id": "OPS_LAMPU_SWALAYAN",
+        "assessment": "Keberadaan; Aliran listrik; Saklar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 90,
+        "name": "Lampu klinik",
+        "target": "2 unit",
+        "item_id": "OPS_LAMPU_KLINIK",
+        "assessment": "Keberadaan; Aliran listrik; Saklar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 91,
+        "name": "Lampu teras depan swalayan (teras gerai)",
+        "target": "6 unit",
+        "item_id": "OPS_LAMPU_TERAS_SWALAYAN",
+        "assessment": "Keberadaan; Aliran listrik; Saklar; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 92,
+        "name": "Colokan gudang utama",
+        "target": "—",
+        "item_id": "OPS_COLOKAN_GUDANG",
+        "assessment": "Keberadaan; Aliran listrik; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 93,
+        "name": "Colokan gudang LPG",
+        "target": "—",
+        "item_id": "OPS_COLOKAN_LPG",
+        "assessment": "Keberadaan; Aliran listrik; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 94,
+        "name": "Colokan gudang pupuk",
+        "target": "—",
+        "item_id": "OPS_COLOKAN_PUPUK",
+        "assessment": "Keberadaan; Aliran listrik; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 95,
+        "name": "Colokan swalayan",
+        "target": "—",
+        "item_id": "OPS_COLOKAN_SWALAYAN",
+        "assessment": "Keberadaan; Aliran listrik; Kondisi; Jumlah; Catatan"
+      },
+      {
+        "order": 96,
+        "name": "Colokan klinik",
+        "target": "—",
+        "item_id": "OPS_COLOKAN_KLINIK",
+        "assessment": "Keberadaan; Aliran listrik; Kondisi; Jumlah; Catatan"
+      }
+    ]
+  }
+]
