@@ -329,7 +329,7 @@ function groupSection(group,index) {
     '<div class="group-modal" data-group-modal="' + esc(group.id) + '" hidden><section class="group-dialog" id="' + esc(dialogId) + '" role="dialog" aria-modal="true" aria-labelledby="' + esc(dialogId) + '-title" tabindex="-1">' +
     '<header class="group-dialog-head"><div class="group-dialog-heading"><span class="num">' + String(index+1).padStart(2,'0') + '</span><div class="group-title"><h2 id="' + esc(dialogId) + '-title">' + esc(group.name) + '</h2><small>' + items.length + ' item · ' + stats.rated + ' sudah dinilai</small></div></div>' +
     '<label class="group-assessment"><span>Status kelompok</span><select class="input" data-group-key="' + esc(group.id) + '" ' + (!canEditActive()?'disabled':'') + '>' +
-      '<option value="">Belum dinilai</option><option value="ada"' + (assessment==='ada'?' selected':'') + '>Ada</option>' +
+      '<option value="">Belum dinilai · kosongkan isian grup</option><option value="ada"' + (assessment==='ada'?' selected':'') + '>Ada</option>' +
       '<option value="tidak_ada"' + (assessment==='tidak_ada'?' selected':'') + '>Tidak Ada</option>' +
       '<option value="custom"' + (assessment==='custom'?' selected':'') + '>Sebagian</option></select></label>' +
     (canEditActive()?'<button class="btn primary group-save" type="button" data-group-save>Simpan</button>':'') +
@@ -927,6 +927,14 @@ function bindFormPage() {
   $$('#page-sarpras [data-group-key]').forEach(el=>el.addEventListener('change',()=>{
     if(!canEditActive())return;
     const group=state.catalog.find(g=>g.id===el.dataset.groupKey);
+    const previous=state.form.groups[group?.id]||'';
+    if(group&&el.value===''&&previous!==''){
+      const prompt='Status grup “'+group.name+'” akan menjadi Belum dinilai dan seluruh isian '+group.items.length+' item di dalamnya akan dikosongkan. Perubahan baru tersimpan ke server saat Anda menekan Simpan. Lanjutkan?';
+      if(!window.confirm(prompt)){el.value=previous;return;}
+      group.items.forEach(item=>{state.form.items[item.id]={};});
+      state.form.groups[group.id]='';
+      setDraft();updateFormMetrics();renderPage('sarpras',false);return;
+    }
     if(group&&['ada','tidak_ada'].includes(el.value)){
       const changes=group.items.filter(item=>(state.form.items[item.id]?.presence||'')!==(el.value==='ada'?'ada':'tidak_ada'));
       const affected=el.value==='tidak_ada'?changes.filter(item=>{
