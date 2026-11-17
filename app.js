@@ -66,7 +66,7 @@ const profileTitle = operatorName||roleLabel;
 function shell() {
   $('#app').innerHTML =
     '<header class="appbar"><button class="brand" data-page="' + (role==='pmo'?'summary':'coops') + '" aria-label="Buka halaman utama">' +
-      '<img src="./assets/logo-kdmp.svg" alt=""><span>KDKMP <i>Lahat</i></span></button>' +
+      '<img src="./assets/logo%20baru.png" alt=""><span>KDKMP <i>Lahat</i></span></button>' +
       '<div class="bar-right"><span class="online" id="connection-label">● Menghubungkan…</span>' +
         '<span class="role-pill">' + esc(roleLabel) + '</span><button class="profile-trigger" data-page="profile" aria-label="Buka profil"><span class="avatar" aria-hidden="true">' + esc((operatorName || roleLabel).slice(0,1)) + '</span>' +
         '<span class="profile-info"><span class="profile-name">' + esc(profileTitle) + '</span><small class="profile-subtitle">Profil</small></span></button>' +
@@ -517,7 +517,7 @@ function profilePage() {
   const isPmo=role==='pmo';
   const heading=isPmo?'Informasi akun PMO.':'Identitas akses dan informasi koperasi.';
   const resetCard=isPmo?'<section class="card profile-card"><h2>Reset password koperasi</h2><p class="muted">Pulihkan akses satu akun Manager atau Pengurus ke sandi awal role.</p><button class="btn primary" id="open-password-reset" aria-haspopup="dialog" aria-controls="password-reset-modal">Reset password</button></section>':'';
-  const passwordCard=isPmo?'':'<section class="card profile-card"><h2>Ganti kata sandi</h2><p class="muted">Kata sandi ini khusus akun yang sedang digunakan. Menggantinya tidak mengubah akun lain.</p>'+ 
+  const passwordCard=(isPmo||role==='guest')?'':'<section class="card profile-card"><h2>Ganti kata sandi</h2><p class="muted">Kata sandi ini khusus akun yang sedang digunakan. Menggantinya tidak mengubah akun lain.</p>'+ 
     '<form id="password-form" class="password-form"><label class="control">Kata sandi saat ini<input class="input" type="password" name="current" autocomplete="current-password" required></label>'+ 
     '<label class="control">Kata sandi baru<input class="input" type="password" name="next" autocomplete="new-password" minlength="8" required></label>'+ 
     '<label class="control">Ulangi kata sandi baru<input class="input" type="password" name="confirm" autocomplete="new-password" minlength="8" required></label>'+ 
@@ -547,7 +547,7 @@ function bindProfilePage() {
     if(role!=='pmo'&&(p.desa||p.kecamatan))rows.push(['Koperasi',(p.desa?'KDKMP '+p.desa:'')+(p.kecamatan?' · '+p.kecamatan:'')]);
     $('#profile-details').innerHTML=rows.map(([k,v])=>'<div><small>'+esc(k)+'</small><strong>'+esc(v||'—')+'</strong></div>').join('');
   }).catch(e=>{const node=$('#profile-details');if(node)node.innerHTML='<span class="offline">'+esc(e.message)+'</span>';});
-  if(role==='pmo')bindPasswordReset();else bindOwnPasswordChange();
+  if(role==='pmo')bindPasswordReset();else if(role!=='guest')bindOwnPasswordChange();
 }
 function bindOwnPasswordChange() {
   $('#password-form')?.addEventListener('submit',async e=>{

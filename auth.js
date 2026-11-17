@@ -5,7 +5,7 @@
   overlay.className='auth-layer';
   overlay.innerHTML=
     '<form class="auth-card" id="auth-form">' +
-      '<div class="auth-brand"><img src="./assets/logo-kdmp.svg" alt=""><div><strong>KDKMP Lahat</strong><small>Sistem pendataan Pra-Verval</small></div></div>' +
+      '<div class="auth-brand"><img src="./assets/logo%20baru.png" alt=""><div><strong>KDKMP Lahat</strong><small>Sistem pendataan Pra-Verval</small></div></div>' +
       '<h1>Masuk ke aplikasi</h1><p>Pilih peran dan masukkan kata sandi.</p>' +
       '<label class="auth-field">Peran<select id="auth-role">' +
         '<option value="manager" selected>Manager</option><option value="pmo">PMO</option>' +
