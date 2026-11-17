@@ -82,8 +82,8 @@ function shell() {
       '<main class="main" id="main"><section id="page-summary" class="page"></section>' +
       '<section id="page-coops" class="page hidden"></section><section id="page-sarpras" class="page hidden"></section>' +
       '<section id="page-export" class="page hidden"></section><section id="page-profile" class="page hidden"></section></main></div>' +
-    '<div class="save hidden" id="savebar"><span id="save-label">Draft hanya di perangkat</span>' +
-      '<button id="save" type="button">Simpan perubahan</button></div>' +
+    '<div class="save hidden" id="savebar"><button id="save" type="button">Simpan perubahan</button>' +
+      '<span id="save-label">Draft hanya di perangkat</span></div>' +
     '<div id="toast" class="toast" role="status" aria-live="polite"></div>';
   $('#logout').addEventListener('click', () => {
     ['kdmp-token','kdmp-role','kdmp-nik','kdmp-name','kdmp-coop-name','kdmp-active-nik'].forEach(k => sessionStorage.removeItem(k));
